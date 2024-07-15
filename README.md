@@ -1,5 +1,5 @@
 # ecoflow-api-php
-Simple class for the Ecoflow API
+Simple class for the Ecoflow API. Please note: highly experimental and probably not fully functional.
 
 ```php
     // Example of how to use the API
