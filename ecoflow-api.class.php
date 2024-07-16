@@ -172,7 +172,6 @@
         private function get( $url, $params=[] )
         {
             $headers = $this->getHeaders($params);
-            print_r( [$url, $headers] );
             return $this->curlRequest( $url, $headers );
         }
 
