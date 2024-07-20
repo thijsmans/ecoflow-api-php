@@ -197,6 +197,27 @@
         }
 
         /**
+         * Check whether a device is online (by serial number)
+         * 
+         * @param string $serial The serial number of the device.
+         * @return mixed True if online, false if not, -1 if device was not found
+         */
+        public function getDeviceOnline( $serial )
+        {
+            $devices = $this->getDevices();
+
+            foreach( $devices['data'] AS $device )
+            {
+                if( $device['sn'] == $serial )
+                {
+                    return $device['online'] == 1 ? true : false;
+                }
+            }
+
+            return -1;
+        }
+        
+        /**
          * Set a function for a specific device.
          *
          * @param string $serial The serial number of the device.
