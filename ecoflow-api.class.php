@@ -1,4 +1,9 @@
 <?php
+    /**
+     *  Author:   Thijsmans
+     *  License:  CC BY-NC 4.0 (Attribution-NonCommercial 4.0 International)
+     */
+
     class EcoFlowAPI 
     {
         // See the docs @ https://developer-eu.ecoflow.com/us/document/generalInfo
