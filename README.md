@@ -1,3 +1,6 @@
+# License
+CC BY-NC 4.0 (Attribution-NonCommercial 4.0 International)
+
 # ecoflow-api-php
 Simple class for the Ecoflow API. Please note: highly experimental and probably not fully functional.
 
