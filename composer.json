@@ -1,0 +1,13 @@
+{
+    "name": "thijsmans/ecoflow-api-php",
+    "description": "A PHP library for interacting with EcoFlow API.",
+    "type": "library",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thijsmans\\EcoflowApi\\": "src/"
+        }
+    }
+}
